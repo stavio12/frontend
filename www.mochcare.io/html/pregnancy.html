@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOCHCare.io</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="/gallery/logo.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+    <style>
+        #butt {
+            border: none;
+            background-color:green; 
+            color: white;
+            border-radius: 4px;
+            padding: 8px;
+        }  
+
+        #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color:green;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+          background-color: blue;
+        }
+        </style>
+</head>
+<body style="background-image: url('/10.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <nav>
+        <a href="#" class="active"> <b>Pregnancy Records</b> </a>
+        <a href="/html/index.html"> <b>Log Out</b> </a>
+        <img src="/gallery/logo.png">
+    </nav>
+<!--Page Content starts here-->
+
+
+
+
+<div class="main">
+  <div class="container">
+    <form>
+      <div class="row">
+        <h4>Pregnancy Records</h4>
+        <div class="col-half1a">
+          <input type="text" placeholder="No. of Pregnancies"/>
+        </div> 
+
+          <div class="col-half1">
+            <input type="text" placeholder="No. of Births"/>
+          </div>  
+        </div>
+<br>
+        <div class="input-group">
+          <div class="col-half1a">
+            <input type="text" placeholder="No. of Abortions"/>
+          </div> 
+            <div class="col-half2">
+              <input type="text" placeholder="Spontaneous"/>
+            </div>  
+            <div class="col-half3">
+              <input type="text" placeholder="Induced"/>
+            </div>
+        </div>
+
+        <br>
+        <hr style="border-color: blue; border-width: 1px;">
+        <br>
+
+<div class="input-group">
+  <div class="input-group">
+    <div class="region">
+     <select>
+      <option>Place of Birth</option>
+      <option>Hospital</option>
+      <option>HC</option>
+      <option>MH</option>
+      <option>CHPS</option>
+      <option>Home</option>
+      <option>Other</option>
+     </select>
+    </div>
+    <div class="col-half3">
+      <input type="text" placeholder="Birth No."/>
+    </div>  
+    <div class="col-half2">
+      <form action="/action_page.php">
+        <input type="date" id="date" name="date" placeholder="Date of Birth">
+      </form>
+    </div>
+</div>
+
+
+<div class="input-group">
+  <div class="input-group">
+    <div class="region">
+     <select>
+      <option>Mode of Delivery</option>
+      <option>SVD</option>
+      <option>AVD</option>
+      <option>CS</option>
+     </select>
+    </div>
+    <div class="col-half3">
+      <input type="text" placeholder="Problems during Pregnancy"/>
+    </div>  
+    <div class="col-half2">
+      <input type="text" placeholder="Gestational Age at Birth"/>
+    </div>
+</div>
+
+<div class="input-group">
+  <div class="input-group">
+    <div class="region">
+     <select>
+      <option>Outcome of Delivery</option>
+      <option>Live Birth</option>
+      <option>Still Birth</option>
+      <option>Miscarriage</option>
+     </select>
+    </div>
+    <div class="col-half3a">
+      <input type="text" placeholder="Labour/ Postpartum Complications"/>
+    </div>
+</div>
+
+<div class="input-group">
+  <div class="input-group">
+    <div class="region">
+     <select>
+      <option>Sex</option>
+      <option>Male</option>
+      <option>Female</option>
+     </select>
+    </div>
+    <div class="col-half3a">
+      <input type="text" placeholder="Birth Weight (kg)"/>
+    </div>
+</div>
+
+
+
+<div class="input-group">
+  <div class="input-group">
+    <div class="region">
+     <select>
+      <option>Child's Present Condition</option>
+      <option>Good</option>
+      <option>Poor</option>
+      <option>Died</option>
+     </select>
+    </div>
+
+    <div class="region" style="padding-left: 10px; padding-right: 0px; width: 50%; float:right;">
+      <select>
+        <option>Major Risk Factors</option>
+        <option>Previous CS</option>
+        <option>Grand Multiparity</option>
+        <option>Previous Post-Partum Haemorrhage</option>
+        <option>Previous Pregnancy Induced Hypertension</option>
+      </select>
+     </div>
+</div>
+
+<br>
+
+
+
+
+
+
+  <div class="col-half4a">
+      <input type="text" placeholder="Occupation"/>
+    </div> 
+  <div class="col-half5a">
+    <input type="text" placeholder="Profession"/>
+  </div>  
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<hr style="border-color: blue; border-width: 1px;">
+
+          <button id="butt">
+              Save and Proceed
+          </button>
+
+    </form>
+  </div>
+
+
+
+
+
+
+<!--Page Content ends here-->
+    <div class="footer">
+        <span> 
+            <b>&copy;2020 MOCHCare<sup>+</sup> | All rights Reserved  | </b>
+        </span>
+      <a href="#"> <img src="/gallery/fb.png" width="20px"> </a>
+      <a href="#"> <img src="/gallery/ig.png" width="20px"> </a>
+      <a href="#"> <img src="/gallery/tw.png" width="20px"> </a>
+      <a href="#"> <img src="/gallery/ut.png" width="20px"> </a>
+      <a href="#"> <img src="/gallery/li.png" width="20px"> </a>
+    </div>
+</div>  
+
+
+
+
+
+<script>
+    //Back to button
+    var mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>
