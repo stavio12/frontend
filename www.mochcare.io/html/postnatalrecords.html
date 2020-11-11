@@ -47,7 +47,7 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <nav>
-        <a href="#" class="active"> <b>Pregnancy Records</b> </a>
+        <a href="#" class="active"> <b>Postnatal Records </b> </a>
         <a href="/html/index.html"> <b>Log Out</b> </a>
         <img src="/gallery/logo.png">
     </nav>
@@ -56,135 +56,111 @@
 
 
 
+
 <div class="main">
   <div class="container">
-    <form>
-      <div class="row">
-        <h4>Pregnancy Records</h4>
-        <div class="col-half1a">
-          <input type="text" placeholder="No. of Pregnancies"/>
+    
+<div class="input-group">
+  <h4> Postnatal Records </h4>
+<div class="col-half2b">
+  <form action="/action_page.php">
+      <input type="date" id="date" name="date">
+  </form>
+</div>  
+<div class="col-half3ci">
+  <input type="text" placeholder="Weight (kg)"/>
+</div>  
+<div class="col-half3ci">
+  <input type="text" placeholder="BP (mmHg)"/>
+</div>  
+<div class="col-half3cii">
+    <input type="text" placeholder="Urine"/>
+</div>  
+<div class="col-half3ci2">
+    <input type="text" placeholder="Pulse"/>
+</div> 
+</div>
+
+<div class="input-group">
+  <div class="col-half2b">
+    <input type="text" placeholder="Fundal Height (cm)"/>
+  </div>  
+  <div class="col-half3ci">
+    <input type="text" placeholder="Temperature"/>
+  </div>  
+  <div class="col-half3ci">
+    <input type="text" placeholder="Lochia Colour/Odour"/>
+  </div>  
+  <div class="col-half3cm">
+      <input type="text" placeholder="Condition of Breast  & nipple"/>
+  </div>   
+  </div>
+
+<div class="input-group">
+    <div class="col-half3cmm">
+        <input type="text" placeholder="No. of days IFA supplied"/>
+    </div>
+<div class="col-half3cmm2">
+    <input type="text" placeholder="Complaints/Remarks"/>
+</div> 
+</div>
+
+<div class="input-group">
+<div class="col-half3cmm3">
+  <input type="text" placeholder="Name of Midwife/Nurse"/>
+  </div> 
+</div>
+
+<div class="input-group">
+    <div class="input-group">
+    <div class="region">
+     <select>
+      <option>Incision Perineum/CS</option>
+      <option>Clean</option>
+      <option>Infected</option>
+     </select>
+    </div> 
+
+    <div class="input-group">
+        <div class="region">
+         <select>
+          <option>Mood Changes</option>
+          <option>Yes</option>
+          <option>No</option>
+         </select>
         </div> 
-
-          <div class="col-half1">
-            <input type="text" placeholder="No. of Births"/>
-          </div>  
-        </div>
-<br>
-        <div class="input-group">
-          <div class="col-half1a">
-            <input type="text" placeholder="No. of Abortions"/>
-          </div> 
-            <div class="col-half2">
-              <input type="text" placeholder="Spontaneous"/>
-            </div>  
-            <div class="col-half3">
-              <input type="text" placeholder="Induced"/>
-            </div>
-        </div>
-
-        <br>
-        <hr style="border-color: blue; border-width: 1px;">
-        <br>
-
-<div class="input-group">
-  <div class="input-group">
-    <div class="region">
-     <select>
-      <option>Place of Birth</option>
-      <option>Hospital</option>
-      <option>HC</option>
-      <option>MH</option>
-      <option>CHPS</option>
-      <option>Home</option>
-      <option>Other</option>
-     </select>
     </div>
-    <div class="col-half3">
-      <input type="text" placeholder="Birth No."/>
-    </div>  
-    <div class="col-half2">
-      <form action="/action_page.php">
-        <input type="date" id="date" name="date" placeholder="Date of Birth">
-      </form>
-    </div>
-</div>
-
-
-<div class="input-group">
-  <div class="input-group">
-    <div class="region">
-     <select>
-      <option>Mode of Delivery</option>
-      <option>SVD</option>
-      <option>AVD</option>
-      <option>CS</option>
-     </select>
-    </div>
-    <div class="col-half3">
-      <input type="text" placeholder="Problems during Pregnancy"/>
-    </div>  
-    <div class="col-half2">
-      <input type="text" placeholder="Gestational Age at Birth"/>
-    </div>
-</div>
-
-<div class="input-group">
-  <div class="input-group">
-    <div class="region">
-     <select>
-      <option>Outcome of Delivery</option>
-      <option>Live Birth</option>
-      <option>Still Birth</option>
-      <option>Miscarriage</option>
-     </select>
-    </div>
-    <div class="col-half3a">
-      <input type="text" placeholder="Labour/ Postpartum Complications"/>
-    </div>
-</div>
-
-<div class="input-group">
-  <div class="input-group">
-    <div class="region">
-     <select>
-      <option>Sex</option>
-      <option>Male</option>
-      <option>Female</option>
-     </select>
-    </div>
-    <div class="col-half3a">
-      <input type="text" placeholder="Birth Weight (kg)"/>
-    </div>
-</div>
-
-
-
-<div class="input-group">
-  <div class="input-group">
-    <div class="region">
-     <select>
-      <option>Child's Present Condition</option>
-      <option>Good</option>
-      <option>Poor</option>
-      <option>Died</option>
-     </select>
-    </div>
-
-    <div class="region" style="padding-left: 10px; padding-right: 0px; width: 50%; float:right;">
-      <select>
-        <option>Major Risk Factors</option>
-        <option>Previous CS</option>
-        <option>Grand Multiparity</option>
-        <option>Previous Post-Partum Haemorrhage</option>
-        <option>Previous Pregnancy Induced Hypertension</option>
-      </select>
-     </div>
-</div>
 
 <br>
+ <hr style="border-color: blue; border-width: 1px;">
+<br> 
+    
+
+ 
+
+         
+
+              
+<div class="input-group">
+<h4> Investigations for Mother after Delivery </h4>
+<div class="col-half2bb">
+<form action="/action_page.php">
+    <input type="date" id="date" name="date">
+</form>
+</div>  
+<div class="col-half3ci">
+<input type="text" placeholder="Hb (g/dl)"/>
+</div>  
+<div class="col-half3ci">
+<input type="text" placeholder="HIV Antibody"/>
+</div>  
+<div class="col-half3cmi">
+  <input type="text" placeholder="Other"/>
+</div>
+</div>
 
 
-
+   </div>
           <button id="butt">
               Save and Proceed
           </button>
