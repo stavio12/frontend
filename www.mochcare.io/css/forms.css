@@ -14,6 +14,9 @@ body {
 h4 {
   color: #3321d3;
 }
+p {
+  color: #000000;
+}
 
 input,
 input[type="radio"] + label,
@@ -147,6 +150,11 @@ select option {
     zoom: 1;
     width: 30%;
   }
+  .input-group1a {
+    margin-bottom: 1em;
+    zoom: 1;
+    width: 100%;
+  }
   .input-group2 {
     margin-bottom: 1em;
     zoom: 1;
@@ -189,11 +197,6 @@ select option {
     float: left;
     padding-right: auto;
   }
-  /*.Ultra2 {
-    zoom: 1;
-    width: 60%;
-    padding-left: auto;
-  }*/
 
 
 .input-group:before,
@@ -292,6 +295,66 @@ select option {
     float: left;
     width: 20%;
   }
+  .col-half2aw {
+    padding-left: 10px;
+    float: left;
+    width: 25%;
+  }
+  .col-half2am {
+    padding-left: 10px;
+    float: left;
+    width: 35%;
+  }
+  .col-half2pm {
+    padding-left: 10px;
+    float: left;
+    width: 40%;
+  }
+  .col-half2ai {
+    padding-left: 10px;
+    float: left;
+    width: 50%;
+  }
+  .col-half2b {
+    padding-left: 0px;
+    float: left;
+    width: 20%;
+  }
+  .col-half2bf {
+    padding-left: 0px;
+    float: right;
+    width: 20%;
+  }
+  .col-half2bb {
+    padding-left: 0px;
+    float: left;
+    width: 25%;
+  }
+  .col-half2bbc {
+    padding-left: 10px;
+    float: left;
+    width: 25%;
+  }
+  .col-half2bbd {
+    padding-left: 0px;
+    float: left;
+    width: 100%;
+  }
+  .col-half2bi {
+    padding-left: 0px;
+    float: left;
+    width: 50%;
+  }
+  .col-half2bbi {
+    padding-left: 0px;
+    float: left;
+    width: 40%;
+  }
+  .col-half2bii {
+    padding-left: 0px;
+    float: left;
+    width: 25%;
+  }
   .col-half3 {
     padding-left: 10px;
     float: left;
@@ -313,6 +376,66 @@ select option {
     float: left;
     width: 30%;
   }
+  .col-half3cm {
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 40%;
+  }
+  .col-half3cmi {
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 35%;
+  }
+  .col-half3cmm {
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    width: 50%;
+  }
+  .col-half3cmm2 {
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 50%;
+  }
+  .col-half3cmm2a {
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 35%;
+  }
+  .col-half3cmm3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    width: 100%;
+  }
+  .col-half3cmm3a {
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    width: 75%;
+  }
+  .col-half3ci {
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 20%;
+  }
+  .col-half3ci2 {
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 25%;
+  }
+  .col-half3cii {
+    padding-left: 10px;
+    padding-right: 0px;
+    float: left;
+    width: 15%;
+  }
   .col-half3d {
     padding-left: 0px;
     padding-right: 0px;
@@ -330,6 +453,10 @@ select option {
     float: right;
     width: 30%;
   }
+  .col-half4b {
+    padding-right: 0px;
+    width: 40%;
+  }
   .col-half5 {
     padding-left: 10px;
     float: left;
@@ -337,8 +464,11 @@ select option {
   }
   .col-half5a {
     padding-right: 10px;
-    float: right;
     width: 30%;
+  }
+  .col-half5aa {
+    padding-right: 10px;
+    width: 40%;
   }
   .col-half5b {
     width: 100%;

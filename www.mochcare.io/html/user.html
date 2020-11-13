@@ -12,6 +12,21 @@
 
 
     <style>
+      #butt {
+            border: none;
+            background-color:green; 
+            color: white;
+            border-radius: 4px;
+            padding: 8px;
+            width: 50%;
+        }  
+
+        #butt a {
+          text-decoration: none;
+          color: white;
+          font-size: medium;
+        }
+
          #butt1 {
           border: none;
           background-color:green; 
@@ -40,11 +55,9 @@
 </head>
 <body>
     <nav>
-        <a href="index.html"> <b>Home</b> </a>
-        <a href="about.html"> <b>About</b> </a>
-        <a href="education.html"> <b>Education</b> </a>
-        <a href="contact.html"> <b>Contact</b> </a>
-        <a href="login.html"> <b>LogIn</b> </a>
+      <a href="index.html"> <b>Home</b> </a>
+      <a href="/html/contact.html"> <b>Contact</b> </a>
+      <a href="/html/login.html"> <b>LogIn</b> </a>
         <img src="/gallery/logo.png">
     </nav>
 
@@ -56,13 +69,16 @@
                 <p>
                    <b> User</b>
                 </p>
-                <p id="link">
-                    
-                  <a href="/html/pregnancy.html">  <b>-- Existing User --</b>  </a> 
-                </p>
-                <p id="link">
-                  <a href="/html/family.html">  <b>-- New User --</b>  </a> 
-                </p>
+                
+                <button id="butt">
+                  <a href="/html/optional.html">  Existing User </a>
+              </button>
+
+              <br>
+
+                <button id="butt">
+                  <a href="/html/family.html">  New User </a>
+              </button>
             </form>
         </div>   
     </div>
