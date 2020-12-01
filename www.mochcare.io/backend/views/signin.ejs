@@ -1,0 +1,54 @@
+<%- include('partials/header') -%>
+
+
+    <style>
+      #butt1 {
+          border: none;
+          background-color:green; 
+          color: white;
+          border-radius: 1px;
+          padding: 5px;
+       }
+    </style>
+
+
+
+</head>
+<body>
+    <nav>
+      <a href="index.html"> <b>Home</b> </a>
+      <a href="/html/contact.html"> <b>Contact</b> </a>
+      <a href="/signin" class="active"> <b>LogIn</b> </a>
+        <img src="../gallery/logo.png">
+    </nav>
+
+    <div id="Center" >
+        <div id="frm">
+          <%- include('partials/messages')-%>
+          <form action="/signin" method="POST" style="height:100%;">
+                <img src="../gallery/logo3.png">
+                <br>
+                <p>
+                    <b> Sign In</b>
+                </p>
+                <div class="col-half7">
+                  <input type="email" name="email" placeholder="E-mail"/>
+                </div>  
+                <br>
+                <br>
+                <div class="col-half7">
+                  <input type="password" name="password" placeholder="Password"/>
+                </div> 
+                
+                <br>
+                <br>
+                <br>
+               <button type="submit" id="butt1">
+                <a>Login</a>
+               </button>
+               <a href="/signup"> <b>No account? Sign Up</b> </a>
+             </form>
+            
+    </div>
+    
+    <%- include('partials/footer')-%>

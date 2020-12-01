@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    width: 100%;
+    font-family: 'segoe UI';
+  }
+  .text{
+      padding: 100px 0;
+  }
+  .box p{
+    font-size:18px;
+    font-family: 'segoe UI';
+  }
+  .red{
+    color:blue;
+  }
+  .redline{
+    width:100px;
+    height:3px;
+    background-color:blue;
+    border:none;
+  }
+  .touch h2{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .form-margin{
+    margin-top: 40px;
+  }
+  .left{
+    text-align:left;
+  }
+  h3{
+    font-variant:bold;
+  }
+  .redline-address{
+    border:none;
+    height:3px;
+    background-color:blue;
+    width:140px;
+    margin-bottom:20px;
+  }
+  .address{
+    padding-top: 50px;
+  }
+  .address p{
+    font-weight:bold;
+    color: #676565;
+    margin:3px;
+  }
+  .phone-e{
+    padding:15px 0;
+  }
+  .logo img{
+    height:50px;
+    width:150px;
+    z-index:2;
+    float:left;
+    margin-top:10px;
+  }
+  .bottom-gap{
+    margin-bottom:100px;
+  }
+  /*validation css*/
+  input.ng-valid {
+    background-color:#dff0d8;
+  }
+  input.ng-invalid {
+      background-color:#f2dede;
+  }
+  input.ng-pristine{
+    background-color:white;
+  }
+  textarea.ng-invalid {
+      background-color:#f2dede;
+  }
+  textarea.ng-pristine{
+    background-color:white;
+  }
+  textarea.ng-valid {
+    background-color:#dff0d8;
+  }
+  

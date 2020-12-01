@@ -1,0 +1,9 @@
+<% if(success_msg && success_msg != ""){ %>
+<div><%= success_msg %></div>
+<% }else if(error_msg && error_msg != ""){%>
+<div style="color: red"><%= error_msg %></div>
+
+<%}%> <% if(error && error != ""){ %>
+<div style="color: red"><%= error %></div>
+
+<%}%>

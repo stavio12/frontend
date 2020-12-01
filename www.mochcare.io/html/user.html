@@ -1,123 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MOCHCare.io</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/forms.css">
-    <link rel="icon" type="image/png" href="/gallery/logo.png"/>
-
-
-
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/forms.css" />
+    <link rel="icon" type="image/png" href="../gallery/logo.png" />
 
     <style>
       #butt {
-            border: none;
-            background-color:green; 
-            color: white;
-            border-radius: 4px;
-            padding: 8px;
-            width: 50%;
-        }  
+        border: none;
+        background-color: green;
+        color: white;
+        border-radius: 4px;
+        padding: 8px;
+        width: 50%;
+      }
 
-        #butt a {
-          text-decoration: none;
-          color: white;
-          font-size: medium;
-        }
+      #butt a {
+        text-decoration: none;
+        color: white;
+        font-size: medium;
+      }
 
-         #butt1 {
-          border: none;
-          background-color:green; 
-          color: white;
-          border-radius: 1px;
-          padding: 5px;
-       }
+      #butt1 {
+        border: none;
+        background-color: green;
+        color: white;
+        border-radius: 1px;
+        padding: 5px;
+      }
 
       #butt2 {
-          width: 150px;
-          border: none;
-          background-color:white;
-          border-radius: 8px;
-          padding: 5px;
-       }
+        width: 150px;
+        border: none;
+        background-color: white;
+        border-radius: 8px;
+        padding: 5px;
+      }
 
-       #link a {
-           font-size: 20px;
-           text-decoration: none;
-           color: white;
-       } 
+      #link a {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+      }
     </style>
-
-
-
-</head>
-<body>
+  </head>
+  <body>
     <nav>
       <a href="index.html"> <b>Home</b> </a>
       <a href="/html/contact.html"> <b>Contact</b> </a>
       <a href="/html/login.html"> <b>LogIn</b> </a>
-        <img src="/gallery/logo.png">
+      <img src="../gallery/logo.png" />
     </nav>
 
-    <div id="Center" >
-        <div id="frm1">
-            <form style="height:100%;">
-                <img src="/gallery/logo3.png">
-                <br>
-                <p>
-                   <b> User</b>
-                </p>
-                
-                <button id="butt">
-                  <a href="/html/optional.html">  Existing User </a>
-              </button>
+    <div id="Center">
+      <div id="frm1">
+        <form style="height: 100%">
+          <img src="../gallery/logo3.png" />
+          <br />
+          <p>
+            <b> User</b>
+          </p>
 
-              <br>
+          <button id="butt">
+            <a href="./optional.html"> Existing User </a>
+          </button>
 
-                <button id="butt">
-                  <a href="/html/family.html">  New User </a>
-              </button>
-            </form>
-        </div>   
+          <br />
+
+          <button id="butt">
+            <a href="./family.html"> New User </a>
+          </button>
+        </form>
+      </div>
     </div>
-    
+
     <div>
       <div class="footer">
-        <span> 
-            <b>MOCHCare<sup>+</sup> &copy;2020 | All rights Reserved  | </b>
+        <span>
+          <b>MOCHCare<sup>+</sup> &copy;2020 | All rights Reserved | </b>
         </span>
-      <a href="https://web.facebook.com/MOCHCare"> <img src="/gallery/fb.png" width="20px"> </a>
-      <a href="https://www.instagram.com/moch_care/"> <img src="/gallery/ig.png" width="20px"> </a>
-      <a href="https://twitter.com/CareMoch"> <img src="/gallery/tw.png" width="20px"> </a>
-      <a href="https://www.youtube.com/channel/UC1CAMA__SaAAtccU_OqFJ7Q/"> <img src="/gallery/ut.png" width="20px"> </a>
-      <a href="https://www.linkedin.com/in/moch-care-8800041b6/"> <img src="/gallery/li.png" width="20px"> </a>
+        <a href="https://web.facebook.com/MOCHCare"> <img src="../gallery/fb.png" width="20px" /> </a>
+        <a href="https://www.instagram.com/moch_care/"> <img src="../gallery/ig.png" width="20px" /> </a>
+        <a href="https://twitter.com/CareMoch"> <img src="../gallery/tw.png" width="20px" /> </a>
+        <a href="https://www.youtube.com/channel/UC1CAMA__SaAAtccU_OqFJ7Q/"> <img src="../gallery/ut.png" width="20px" /> </a>
+        <a href="https://www.linkedin.com/in/moch-care-8800041b6/"> <img src="../gallery/li.png" width="20px" /> </a>
+      </div>
     </div>
-</div>  
-    
-    
-    
-    
-    
+
     <script>
-        //Back to button
-        var mybutton = document.getElementById("myBtn");
-        
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
+      //Back to button
+      var mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
         }
-        
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
-</body>
+  </body>
 </html>
